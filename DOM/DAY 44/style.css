@@ -1,0 +1,40 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,
+body {
+height: 100%;
+width: 100%,
+}
+
+main{
+      height: 100%;
+      width: 100%;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow:auto;
+      position: relative;
+}
+button{
+      padding: 15px 30px;
+      font-size: 25px;
+      font-family: monospace;
+      font-weight: 550;
+      letter-spacing: -1px;
+      background: url(https://cdnl.iconscout.com/lottie/premium/thumb/background-pattern-animation-gif-download-11986449.gif);
+      color: rgb(184, 194, 92);
+      background-clip:button;
+      background-color: brown;
+      background-position: center;
+      border: 1px solid rgb(226, 160, 160);
+      border-radius: 10px;
+      cursor: pointer;
+      z-index: 9;
+}
+button:active{
+      scale: 0.96;
+}

@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "button-type": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not ios_saf <= 26",
+    "not safari <= 26.1",
+    "not and_ff <= 144",
+    "not firefox <= 144"
+  ]
+}

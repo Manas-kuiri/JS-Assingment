@@ -1,0 +1,40 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,
+body {
+height: 100%;
+width: 100%,
+}
+main{
+      height: 100%;
+      width: 100%;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: wheat;
+      overflow: hidden;
+}
+
+button{
+      padding: 15px 30px;
+      background-color: rgb(45, 100, 240);
+      color: white;
+      border: 1px solid dimgrey;
+      border-radius: 15px;
+      font-size: 20px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 500;
+      position: relative;
+      z-index: 9;
+} 
+button:active{
+      scale: 0.96;
+}    
+h1{
+      white-space: nowrap;
+      font-size: 30px;
+}
