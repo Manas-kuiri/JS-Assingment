@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--dark);
+  padding: 20px;
+}
+
+:root {
+  --dark: rgba(23, 23, 23, 0.932);
+  --x: 200px;
+  --y: 200px;
+}
+.box {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(130px at var(--x) var(--y),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.904));
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.main-card {
+  height: 150px;
+  width: 300px;
+  background: #e7c2c2;
+  border-radius: 15px;
+}
+
+.card {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+.card h3 {
+  font-size: 25px;
+  color: magenta;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+.card-text {
+  width: 100%;
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.card-text p{
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:#085436;
+  font-weight: 600;
+}
+.card-text button{
+  padding: 3px 8px;
+  font-size: 12px;
+  white-space: nowrap;
+  margin-left: auto;
+  display: block;
+  border: none;
+  background-color: rgba(2, 167, 140, 0.926);
+  border-radius: 20px;
+  color: rgb(235, 236, 237);
+  font-weight: 700;
+  cursor: pointer;
+}
+ .card-text button:active{
+  scale: 0.96;
+}
+button:hover{
+  background-color: transparent;
+  color:rgba(2, 167, 140, 0.926);
+  border: 1px solid aqua;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
