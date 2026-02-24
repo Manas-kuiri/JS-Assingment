@@ -6,15 +6,12 @@ paragraph.forEach((elem) => {
     let iteration = 0;
     const text = elem.innerText;
     const interval = setInterval(() => {
-      const newString = text
-        .split("")
-        .map((char, index) => {
+      const newString = text.split("").map((char, index) => {
           if (index < iteration) {
             return char;
           }
           return letter.split("")[Math.floor(Math.random() * letter.length)];
-        })
-        .join("");
+        }).join("");
 
       iteration += 0.3;
 
