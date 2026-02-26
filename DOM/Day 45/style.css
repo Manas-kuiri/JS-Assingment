@@ -43,7 +43,7 @@ main{
 .outer{
       height: 100%;
       width: 0%;
-      background-color: green;
+      background-color: #1ccc08;
       border-radius: 50px;
 }
 .bottom{
