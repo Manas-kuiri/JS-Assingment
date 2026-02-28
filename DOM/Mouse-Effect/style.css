@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    anchor-name: --mouseAnchor;
+}
+.box{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.box:hover{
+    anchor-name: --mouseAnchor;
+}
+
+.red{
+    background-color: rgb(189, 10, 10);
+    
+}
+Effect
+.blue{
+    background-color: rgb(7, 7, 114);
+
+}
+
+.green{
+    background-color: rgb(9, 79, 9);
+}
+
+.anchor{
+    position-anchor:--mouseAnchor;
+    border-radius: 10px;
+    position: absolute;
+    top: anchor(top);
+    left: anchor(left);
+    right: anchor(right);
+    bottom: anchor(bottom);
+    pointer-events: none;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.5s linear;
+    mix-blend-mode: exclusion;
+}
